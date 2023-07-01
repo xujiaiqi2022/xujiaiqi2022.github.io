@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>My New Hugo Site</title>
+        <link>/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 12:13:53 &#43;0800</lastBuildDate>
+            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Myfirstblog</title>
+    <link>/posts/myfirstblog/</link>
+    <pubDate>Sat, 01 Jul 2023 12:13:53 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>/posts/myfirstblog/</guid>
+    <description><![CDATA[在完成时遇到的问题：首先我的笔记本是mac系统，老师所给的教程和安装包大部分都无法使用，所以我就在网页和b站上查找资料，一边学习一边配置。最后在打开博客的网站时，一直发现显示网站为空，后来在请教了学长之后才知道要把hugo中的base URL设置为空，否则就会优先跳到那个地址中。然后在上传到github时也遇到了问题，首先是上传的文件夹不对，我把一整个博客都上传上去了，应该只需要上传public的部分，最后又发现因为自己的粗心，将用户名多打了一个字母，所以所建的仓库名和用户名一直不一样，所以才会报错。 ]]></description>
+</item>
+</channel>
+</rss>
